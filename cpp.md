@@ -1,5 +1,5 @@
 # Basic Functions
-Some of the functions to use that are received from <iostream>
+Some of the functions to use that are received from the ```<iostream>``` header.
 ## Printing Output to Console
 If you used C before now, rejoice! Printing output is far easier in C++. You must specify that you are using the std (standard) namespace in order for this to work.
 ```cpp
