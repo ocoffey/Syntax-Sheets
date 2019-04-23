@@ -1,6 +1,6 @@
 # Basic Functions
-Some of the functions to use that are received from the ```<iostream>``` header.
-## Printing Output to Console
+Some of the functions to use that are received from the ```cpp<iostream>``` header.
+### Printing Output to Console
 If you used C before now, rejoice! Printing output is far easier in C++. You must specify that you are using the std (standard) namespace in order for this to work.
 ```cpp
 std::cout << "This is printing" << std::endl
@@ -8,7 +8,7 @@ std::cout << "This is printing" << std::endl
 std::String word = " also ";
 std::cout << "This " << "is" << word << "printing" << std::endl;
 ```
-## Receiving Input from Console
+### Receiving Input from Console
 Uses the cin keyword, and stores the input into a variable.
 ```cpp
 int usernum;
@@ -16,12 +16,12 @@ std::cout << "Please enter a number" << std::endl;
 std::in >> usernum;
 std::cout << "You entered: " << usernum << std::endl;
 ```
-
+If a user enters input that isn't of the type you're expecting, you will receive an error.
 # Basic Data Types and Operators
 These are the basic types of variables, operators for those variables, and their syntax
-## Data Types
+### Data Types
 Your basic data types
-### int
+##### int
 Your basic integer numeric data type. Integers are non-decimal numbers. Default use of int creates a signed integer (the integer can have negative values). You can also specify to create a variable as an unsigned integer.
 ```cpp
 int my_int = 5;
