@@ -2,11 +2,15 @@
 
 Some of the functions to use that are received from the ```cpp<iostream>``` header.
 
+## Statementss
+
+All statements end with a ';'. If you do not have a semicolon at the end of your statement(s), the compiler will yell at you. 
+
 ## Printing Output to Console
 
 If you used C before now, rejoice! Printing output is far easier in C++. You must specify that you are using the std (standard) namespace in order for this to work.
 ```cpp
-std::cout << "This is printing" << std::endl
+std::cout << "This is printing" << std::endl;
 // You can also replace specific words inbetween '<<' with variables!
 std::String word = " also ";
 std::cout << "This " << "is" << word << "printing" << std::endl;
@@ -174,17 +178,67 @@ isThisTrue = (10 || 0);
 
 # Control Flow
 
+How you improve code quality and reusability.
+
 ## Conditional Statements
+
+Your basic control flow schemes.
 
 ### if statement
 
+The first control flow statement. If the condition inside the parenthesis evalutes to true, then the following statement is run. If the condition is false, the statement doesn't run.
+```cpp
+// Format
+if (<condition_goes_here>) {
+    <statement(s)_go_here>
+}
+```
+```cpp
+// Example
+bool thisIsTrue = true;
+if (thisIsTrue) {
+    std::cout << "This is true" << std::endl;
+}
+```
+
 ### else statement
+
+Gives an alternative clause for the if statement. When the if statement evaluates to false, the else statement runs.
+```cpp
+bool falseExample = false;
+if (falseExample) {
+    // this will not run
+}
+else {
+    // this will run
+    std::cout << "This is false" << std::endl;
+}
+```
 
 ### else if statement
 
+Allows for more options within if...else clauses. Sometimes, you want to check for one of many options, with your else statement being a failsafe.
+```cpp
+int myNum = 2;
+if (myNum == 1) {
+    // doesn't run
+}
+else if (myNum == 2) {
+    //runs, since myNum is equal to '2'
+    std::cout << myNum << std::endl;
+}
+else {
+    // doesn't run
+}
+```
+
 ## Switch Statements
 
+Related to conditional statements, but divergent.
+
 ## Loops
+
+Why write something 100 times if you could write it once and throw it in a loop?
 
 ### While Loop
 
