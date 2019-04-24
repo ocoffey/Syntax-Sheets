@@ -122,16 +122,76 @@ a = 5 % 2;
 // a has a value of '1', or the remainder of 5 / 2
 ```
 
+### Increments/Decrements
+
+Useful for counters, or other manipulations
+
+#### ++
+
+Used to increment a variable by 1. Used frequently with counter variables for loops.
+> i++
+```cpp
+int i = 1;
+i++; // i is now 2
+```
+> ++i
+```cpp
+// technically faster than i++, but if you use i++, the compiler will
+// internally change it to ++i while compiling
+int i = 3;
+++i; // i is now 4
+```
+
+#### --
+
+Basic decrement, same styles apply as for ++
+
+#### +=, -=, *=, /=
+
+Useful for when you're trying to manipulate a number by more than one tick.
+> Effectively is going 'i = i + x', for the case of i += x
+```cpp
+int i = 7;
+i += 13; // i is now 20
+i -= 5; // i is now 15
+i *= 4; // i is now 60
+i /= 12; // i is now 5
+```
+
+### Equalities/Inequalities
+
+Checks for whether both sides of the operator are equal or inequal.
+
 #### ==
 
-The mathematical equality operator. A single '=' assigns a value to a variable, so '==' is used to compare equality instead.
+The mathematical equality operator. A single '=' assigns a value to a variable, so '==' is used to compare equality instead. If one side is equivalent to the other, this statement evaluates as 'true'
 ```cpp
 bool areTheseEqual;
-areTheseEqual = (17 == 8); // assigns true or false, dependent on the comparison (so false)
+areTheseEqual = (17 == 8); // assigns false, since 17 is not equal to 8
 areTheseEqual = (12 == (4 + 8)); // assigns true
 ```
 
+#### !=
+
+The mathematical inequality operator. This operator evaluates to 'true' if the element on one side is not equivalent to the element on the other side.
+```cpp
+bool theseAreNotEqual;
+theseAreNotEqual = (5 != 3); // assigns true, since they are not equal
+theseAreNotEqual = ('A' != 'A') // assigns false, since the ascii character for 'A' (numeric value
+                                // of 65) is equal to itself
+```
+
 ### Logical Operators
+
+Operators used for logical comparisons of elements
+
+#### !
+
+The 'not' operator (logical inverse). It turns true elements to false, and vice versa.
+```cpp
+bool thisWillBeTrue;
+thisWillBeTrue = !false; // this takes the value of 'false', and inverts it to 'true'
+```
 
 #### &&
 
@@ -190,7 +250,7 @@ The first control flow statement. If the condition inside the parenthesis evalut
 ```cpp
 // Format
 if (<condition_goes_here>) {
-    <statement(s)_go_here>
+    // <statement(s)_go_here>
 }
 ```
 ```cpp
@@ -232,19 +292,70 @@ else {
 }
 ```
 
-## Switch Statements
-
-Related to conditional statements, but divergent.
-
 ## Loops
 
 Why write something 100 times if you could write it once and throw it in a loop?
+> The 'break' keyword will exit a loop at any time. It is most useful when put into a conditional statement, so that when the condition is true, the loop will end.
 
 ### While Loop
 
+Your most basic loop; it will run until its condition is false.
+Ex.1 - Infinite Loop
+```cpp
+while (true) {
+    std::cout << "I will run forever!!!" << std::endl;
+}
+// since there is no 'break' here, and the condition is always true, this code will never stop running.
+```
+Ex.2 - Broken Loop
+```cpp
+while (true) {
+    std::cout << "I want to run forever :'(" << std::endl;
+    break;
+}
+// this loop will break just after its print statement
+```
+Ex.3 - Natural Loop
+```cpp
+// Normally, loops will have this structure; of having some changing variable, that will
+// eventually break the loop
+int i = 0;
+while (i < 5) {
+    i++; // increments i on each iteration, and when i == 5, the loop breaks
+}
+```
+
 ### For Loop
 
+Probably the most common loop you'll use. A for loop takes 3 parameters; an variable that will be changed, a conditional statement to evaluate (which should use the previous variable), and a function to change the variable. These statements are separated by ';'
+```cpp
+for (int i = 0; i < 10; i++) {
+    std::cout << i << ", "; // prints the values of i from 1 to 9, separated by commas and spaces
+}
+std::endl; // makes a new line
+```
+
 ### Do While Loop
+
+Probably the least common loop used; its use case is for when you want a statement to run at least once, and then maybe some more. The statement before 'while' will always run before the condition is checked.
+```cpp
+bool oneRun = true;
+do {
+    std::cout << "I will only run once, and not loop" << std::endl;
+    oneRun = false;
+} while(oneRun);
+```
+
+## Switch Statements
+
+Related to conditional statements, but divergent. A switch statement compares your input against its possible cases, and runs the case that matches the input (if found). `break` is useful in parts of control.
+
+## default case
+
+
+
+##
+
 
 ---
 
@@ -259,6 +370,8 @@ These data types are serializations of other data types (a serialization effecti
 ---
 
 # Functions
+
+## Main
 
 ## Parameters
 
