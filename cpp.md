@@ -23,6 +23,8 @@ std::cout << "You entered: " << usernum << std::endl;
 ```
 If a user enters input that isn't of the type you're expecting, you will receive an error.
 
+
+
 # Basic Data Types and Operators
 
 These are the basic types of variables, operators for those variables, and their syntax
@@ -107,6 +109,15 @@ a = 5 % 2;
 // a has a value of '1', or the remainder of 5 / 2
 ```
 
+#### ==
+
+The mathematical equality operator. A single '=' would assign a value to a variable, so '==' is used to compare equality instead.
+```cpp
+bool areTheseEqual;
+areTheseEqual = (17 == 8); // assigns true or false, dependent on the comparison (so false)
+areTheseEqual = (12 == (4 + 8)); // assigns true
+```
+
 ### Logical Operators
 
 #### &&
@@ -121,22 +132,36 @@ truthTest = (1 && 5);
 // (any non-zero value is considered true, and zero is false)
 ```
 
-##### && Table
+##### && Truth Table
 
-| A    |  B   | Result |
-| ---  | ---  |  ---   |
-|true  |true  |true    |
-|true  |false |false   |
-|false |true  |false   |
-|false |false |false   |
+|   A   |   B   | Result |
+|  ---  |  ---  |  ---   |
+| true  | true  | true   |
+| true  | false | false  |
+| false | true  | false  |
+| false | false | false  |
 
 #### ||
 
-The logical 'or' operator. 
+The logical 'or' operator. This operator checks to see if either side of the equation logically evaluates to true.
+```cpp
+bool isThisTrue;
+isThisTrue = (true || false);
+// isThisTrue has a value of true, since one of the sides was true
+isThisTrue = (10 || 0);
+// also makes isThisTrue to true, since one of the sides is non-zero
+```
 
-#### ==
+##### || Truth Table
 
-The logical equality operator.
+|   A   |   B   | Result |
+|  ---  |  ---  |  ---   |
+| true  | true  | true   |
+| true  | false | true   |
+| false | true  | true   |
+| false | false | false  |
+
+
 
 # Containers (Advanced Data Types)
 
@@ -177,6 +202,10 @@ These data types are serializations of other data types
 ## Return Values
 
 ## Scope
+
+## Iterative Functions
+
+## Recursive Functions
 
 
 
