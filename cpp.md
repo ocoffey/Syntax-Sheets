@@ -23,11 +23,20 @@ std::cout << "You entered: " << usernum << std::endl;
 ```
 If a user enters input that isn't of the type you're expecting, you will receive an error.
 
-
+---
 
 # Basic Data Types and Operators
 
 These are the basic types of variables, operators for those variables, and their syntax
+
+## Assignment Operator
+
+The syntax for assignment is fairly equivalent among languages; the '=' sign is used to assign values to variables.
+```cpp
+int a;
+a = 5; // writes the value of '5' into the memory location of a. More on those later;
+       // the takeaway is that a now holds a value a 5
+```
 
 ## Data Types
 
@@ -161,17 +170,7 @@ isThisTrue = (10 || 0);
 | false | or  | true  | ->  | true   |
 | false | or  | false | ->  | false  |
 
-
-
-# Containers (Advanced Data Types)
-
-These data types are serializations of other data types
-
-## Arrays
-
-## Strings
-
-
+---
 
 # Control Flow
 
@@ -193,7 +192,17 @@ These data types are serializations of other data types
 
 ### Do While Loop
 
+---
 
+# Containers (Advanced Data Types)
+
+These data types are serializations of other data types (a serialization effectively means "many of these things in a row")
+
+## Arrays
+
+## Strings
+
+---
 
 # Functions
 
@@ -207,10 +216,14 @@ These data types are serializations of other data types
 
 ## Recursive Functions
 
+---
 
+# Error Handling
+
+---
 
 # Pointers and Dynamic Programming
 
-
+---
 
 # Classes
