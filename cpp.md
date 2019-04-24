@@ -2,7 +2,7 @@
 
 Some of the functions to use that are received from the ```cpp<iostream>``` header.
 
-## Statementss
+## Statements
 
 All statements end with a ';'. If you do not have a semicolon at the end of your statement(s), the compiler will yell at you. 
 
@@ -295,11 +295,11 @@ else {
 ## Loops
 
 Why write something 100 times if you could write it once and throw it in a loop?
-> The 'break' keyword will exit a loop at any time. It is most useful when put into a conditional statement, so that when the condition is true, the loop will end.
+> The 'break' keyword will exit a loop at any time. It is most useful when nested in a conditional statement, so that when the condition is true, the loop will end.
 
 ### While Loop
 
-Your most basic loop; it will run until its condition is false.
+Your most basic loop; it will run until its condition is false. <br>
 Ex.1 - Infinite Loop
 ```cpp
 while (true) {
@@ -327,7 +327,7 @@ while (i < 5) {
 
 ### For Loop
 
-Probably the most common loop you'll use. A for loop takes 3 parameters; an variable that will be changed, a conditional statement to evaluate (which should use the previous variable), and a function to change the variable. These statements are separated by ';'
+Probably the most common loop you'll use. A for loop takes 3 parameters; a variable that will be changed, a conditional statement to evaluate (which should use the previous variable), and a function to change the variable. These statements are separated by ';'
 ```cpp
 for (int i = 0; i < 10; i++) {
     std::cout << i << ", "; // prints the values of i from 1 to 9, separated by commas and spaces
