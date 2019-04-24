@@ -117,7 +117,8 @@ bool truthTest;
 truthTest = (true && true);
 // truthTest has a value of true, since the expression was true for both of its sides
 truthTest = (1 && 5);
-// this would also make truthTest true, since non-zero values are considered true (any non-zero is considered true)
+// this would also make truthTest true, since non-zero values are considered true
+// (any non-zero value is considered true)
 ```
 
 #### ||
