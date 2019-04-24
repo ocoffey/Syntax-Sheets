@@ -111,7 +111,7 @@ a = 5 % 2;
 
 #### ==
 
-The mathematical equality operator. A single '=' would assign a value to a variable, so '==' is used to compare equality instead.
+The mathematical equality operator. A single '=' assigns a value to a variable, so '==' is used to compare equality instead.
 ```cpp
 bool areTheseEqual;
 areTheseEqual = (17 == 8); // assigns true or false, dependent on the comparison (so false)
@@ -134,12 +134,12 @@ truthTest = (1 && 5);
 
 ##### && Truth Table
 
-|   A   |   B   | Result |
-|  ---  |  ---  |  ---   |
-| true  | true  | true   |
-| true  | false | false  |
-| false | true  | false  |
-| false | false | false  |
+|   A   | &&  |   B   | ->  | Result |
+|  ---  | --- |  ---  | --- |  ---   |
+| true  | &&  | true  | ->  | true   |
+| true  | &&  | false | ->  | false  |
+| false | &&  | true  | ->  | false  |
+| false | &&  | false | ->  | false  |
 
 #### ||
 
@@ -154,12 +154,12 @@ isThisTrue = (10 || 0);
 
 ##### || Truth Table
 
-|   A   |   B   | Result |
-|  ---  |  ---  |  ---   |
-| true  | true  | true   |
-| true  | false | true   |
-| false | true  | true   |
-| false | false | false  |
+|   A   | ||  |   B   | ->  | Result |
+|  ---  | ||  |  ---  | ->  |  ---   |
+| true  | ||  | true  | ->  | true   |
+| true  | ||  | false | ->  | true   |
+| false | ||  | true  | ->  | true   |
+| false | ||  | false | ->  | false  |
 
 
 
