@@ -79,7 +79,54 @@ Used to manipulate values and check for equalities.
 
 ### Mathematical Operators
 
+#### +
+
+Basic addition operator
+
+#### -
+
+Basic subtraction operator
+
+#### *
+
+Basic multiplication operator
+
+#### /
+
+The integer division operator. This operator effectively uses long division, and returns your answer without the remainder.
+```cpp
+a = 5 / 2;
+// a has a value of '2'
+```
+
+#### %
+
+The remainder operator (known as modulo/modulus). This operator will output *only* the remainder of the division operation. This operator is very useful for checking if a number is odd or even (by doing num % 2), and other functions of that nature.
+```cpp
+a = 5 % 2;
+// a has a value of '1', or the remainder of 5 / 2
+```
+
 ### Logical Operators
+
+#### &&
+
+The logical 'and' operator. This operator checks to see that both sides of the equation logically evaluate to true.
+```cpp
+bool truthTest;
+truthTest = (true && true);
+// truthTest has a value of true, since the expression was true for both of its sides
+truthTest = (1 && 5);
+// this would also make truthTest true, since non-zero values are considered true (any non-zero is considered true)
+```
+
+#### ||
+
+The logical 'or' operator.
+
+#### ==
+
+The logical equality operator.
 
 # Containers (Advanced Data Types)
 
