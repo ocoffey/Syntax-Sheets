@@ -118,12 +118,20 @@ truthTest = (true && true);
 // truthTest has a value of true, since the expression was true for both of its sides
 truthTest = (1 && 5);
 // this would also make truthTest true, since non-zero values are considered true
-// (any non-zero value is considered true)
+// (any non-zero value is considered true, and zero is false)
 ```
+
+##### && Table
+
+| A    |  B   | Result |
+|true  |true  |true    |
+|true  |false |false   |
+|false |true  |false   |
+|false |false |false   |
 
 #### ||
 
-The logical 'or' operator.
+The logical 'or' operator. 
 
 #### ==
 
