@@ -124,6 +124,7 @@ truthTest = (1 && 5);
 ##### && Table
 
 | A    |  B   | Result |
+| ---  | ---  |  ---   |
 |true  |true  |true    |
 |true  |false |false   |
 |false |true  |false   |
