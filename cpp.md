@@ -154,12 +154,12 @@ isThisTrue = (10 || 0);
 
 ##### || Truth Table
 
-|   A   | `||`  |   B   | ->  | Result |
-|  ---  | `||`  |  ---  | ->  |  ---   |
-| true  | `||`  | true  | ->  | true   |
-| true  | `||`  | false | ->  | true   |
-| false | `||`  | true  | ->  | true   |
-| false | `||`  | false | ->  | false  |
+|   A   | ||  |   B   | ->  | Result |
+|  ---  | --- |  ---  | --- |  ---   |
+| true  | ||  | true  | ->  | true   |
+| true  | ||  | false | ->  | true   |
+| false | ||  | true  | ->  | true   |
+| false | ||  | false | ->  | false  |
 
 
 
