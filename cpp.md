@@ -134,12 +134,12 @@ truthTest = (1 && 5);
 
 ##### && Truth Table
 
-|   A   | &&  |   B   | ->  | Result |
+|   A   | and |   B   | ->  | Result |
 |  ---  | --- |  ---  | --- |  ---   |
-| true  | &&  | true  | ->  | true   |
-| true  | &&  | false | ->  | false  |
-| false | &&  | true  | ->  | false  |
-| false | &&  | false | ->  | false  |
+| true  | and | true  | ->  | true   |
+| true  | and | false | ->  | false  |
+| false | and | true  | ->  | false  |
+| false | and | false | ->  | false  |
 
 #### ||
 
@@ -154,12 +154,12 @@ isThisTrue = (10 || 0);
 
 ##### || Truth Table
 
-|   A   | `||`  |   B   | ->  | Result |
-|  ---  |  ---  |  ---  | --- |  ---   |
-| true  | `||`  | true  | ->  | true   |
-| true  | `||`  | false | ->  | true   |
-| false | `||`  | true  | ->  | true   |
-| false | `||`  | false | ->  | false  |
+|   A   | or  |   B   | ->  | Result |
+|  ---  | --- |  ---  | --- |  ---   |
+| true  | or  | true  | ->  | true   |
+| true  | or  | false | ->  | true   |
+| false | or  | true  | ->  | true   |
+| false | or  | false | ->  | false  |
 
 
 
