@@ -2,6 +2,8 @@
 
 An introduction to the basics of C
 
+---
+
 ## Explaining the Main Function
 
 This is an example of a small program in C (which in this case, does nothing). I'll break down what each part is after the example.
@@ -49,6 +51,8 @@ The `main()` function is special, in that it specifically needs you to `return 0
 ### Statements
 
 Technically, us putting `return 0;` is something called a statement; statements end in a `;`. Statements let our program know how many operations to try and do before moving on to the next set of them; typically, you will use a semicolon at the end of each line of your code.
+
+---
 
 ## Basic User Interface Functions
 
