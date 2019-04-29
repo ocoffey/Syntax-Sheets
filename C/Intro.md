@@ -41,10 +41,14 @@ The line under `int main(void)` is the line `// do things`. Two forward slashes 
 While your executable program is being made from your .c file, the compiler will remove all of your comments, since they aren't needed for running the program. The comments will still remain in your original .c file.
 > Comments also have the useful function of being able to temporarily render lines of code inert; if you are testing code and are having issues with one section, you can comment that section out and work on other sections, allowing you to return later to the problem area
 
-### `return 0`
+### `return 0;`
 
 In C, every function needs some return value. Return values let other parts of the program know that this part is done with what it needed to do! <br>
 The `main()` function is special, in that it specifically needs you to `return 0` when your program is done; this lets your program know that it successfully ran. If you were to return a different number, you would get an error.
+
+### Statements
+
+Technically, us putting `return 0;` is something called a statement; statements end in a `;`. Statements let our program know how many operations to try and do before moving on to the next set of them; typically, you will use a semicolon at the end of each line of your code.
 
 ## Basic User Interface Functions
 
@@ -52,6 +56,23 @@ How to interact with the user of your program
 
 ### Printing to the Console
 
+Many times in coding, we will need to let the user know some result that our code computed. In C, this is done with the `printf()` function.
 
+#### `printf()`
+
+The `printf()` function prints whatever you end up putting inside the parenthesis!
+```c
+#include <stdio.h>
+
+int main(void) {
+    printf("These are the words that the user will see.");
+    return 0;
+}
+```
+Sometimes though, we won't always know exactly what we're going to print, which is why we also have something called format specifiers.
+
+#### Format Specifiers
+
+Format specifiers take an input from some [here](http://www.cplusplus.com/reference/cstdio/printf/ "List of Format Specifiers")
 
 ### Receiving Input from the Console
