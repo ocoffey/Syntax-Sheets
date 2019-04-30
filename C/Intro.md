@@ -40,7 +40,7 @@ The line under `int main(void)` is the line `// do things`. Two forward slashes 
 /*  Multi-Line
     Comments */
 ```
-While your executable program is being made from your .c file, the compiler will remove all of your comments, since they aren't needed for running the program. The comments will still remain in your original .c file.
+While your executable program is being made from your .c file, the compiler will remove all of your comments, since they aren't needed for running the program. But feat not! The comments will still remain in your original .c file.
 > Comments also have the useful function of being able to temporarily render lines of code inert; if you are testing code and are having issues with one section, you can comment that section out and work on other sections, allowing you to return later to the problem area
 
 ### `return 0;`
@@ -52,4 +52,4 @@ The `main()` function is special, in that it specifically needs you to `return 0
 
 Technically, us putting `return 0;` is something called a statement; statements end in a `;`. Statements let our program know how many operations to try and do before moving on to the next set of them; typically, you will use a semicolon at the end of each line of your code.
 
-Next, we need to learn the different types of data, and containers for storing them (variables).
+[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/Data_Types.md "Data Types"), we need to learn the different types of data, and containers for storing them (variables).
