@@ -11,7 +11,8 @@ This is an example of a small program in C (which in this case, does nothing). I
 #include <stdio.h>
 
 int main(void) {
-    // do things
+    // this next line will print the words "OK Computer" to the console!
+    printf("OK Computer");
     return 0;
 }
 ```
@@ -42,6 +43,10 @@ The line under `int main(void)` is the line `// do things`. Two forward slashes 
 ```
 While your executable program is being made from your .c file, the compiler will remove all of your comments, since they aren't needed for running the program. But feat not! The comments will still remain in your original .c file.
 > Comments also have the useful function of being able to temporarily render lines of code inert; if you are testing code and are having issues with one section, you can comment that section out and work on other sections, allowing you to return later to the problem area
+
+### printf("OK Computer");
+
+This line uses the `printf()` command to display the words "OK Computer" to the user. More on print statements, and statements used to take in user input, will be explained later.
 
 ### `return 0;`
 

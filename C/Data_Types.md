@@ -11,7 +11,7 @@ Variables are containers for values that we wish to manipulate. Think over to ma
 
 ## Integers (Non-Fractional, Non-Decimal Numbers)
 
-Integers are numbers without any decimal places. These are the first numbers you learned about when learning what numbers are (they are "whole numbers"). Creating an integer variable uses the `int` keyword.
+Integers are numbers without any decimal places. These are the first numbers you learned about when you learned what numbers are (they are "whole numbers"). Creating an integer variable uses the `int` keyword.
 ```c
 #include <stdio.h>
 
@@ -22,7 +22,7 @@ int main(void) {
 }
 ```
 In C, ints take up 4 bytes of memory.
-> You might have noticed that this is the data type our main function is returning! That's where the 'int' comes from on the function line, and is why our return value of 0 corresponds to the type.
+> You might have noticed that an int is the data type our main function is returning! That's where the 'int' comes from on the function line, and is why our return value of 0 corresponds to the type.
 
 ## Real Numbers (Decimal Numbers)
 
