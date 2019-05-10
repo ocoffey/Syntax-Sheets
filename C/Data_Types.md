@@ -40,7 +40,16 @@ In C, floats take up 4 bytes of memory.
 
 ## Logical Values (Truths and Falsehoods)
 
-
+Logical values are stored within the `bool` data type ('bool' stands for 'boolean'). `bool` data can hold the values `true` and `false`. 
+> Numerically, a `bool` variable is true if it stores any non-zero number, and false if it stores 0. This distinction can be very useful for certain programming problems.
+```c
+int main(void) {
+    bool my_bool; // declares a boolean variable
+    my_bool = true;
+    return 0;
+}
+```
+In C, bools take up 1 byte of memory (technically you only need 1 bit to tell if something is true or false, but the C standard allows allocations of 1 byte as the minimum).
 
 ## Characters (Letters and Symbols)
 

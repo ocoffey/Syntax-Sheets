@@ -36,12 +36,12 @@ An opening bracket occurs after a function definition, and a closing bracket occ
 
 ### Comments: Single Line `//` and Multi-Line `/* */`
 
-The line under `int main(void)` is the line `// do things`. Two forward slashes denotes a single line comment; comments are useful for explaining what that section of code is trying to do. This is both useful for coordinating coding with other programmers, and for yourself, in case you revisit old code and forgot what it was doing. You can also do multi-line comments like so:
+The line under `int main(void)` is the line `// this next line will print the words "OK Computer" to the console!`. Two forward slashes denotes a single line comment; comments are useful for explaining what that section of code is trying to do. This is both useful for coordinating coding with other programmers, and for yourself, in case you revisit old code and forgot what it was doing. You can also do multi-line comments like so:
 ```c
 /*  Multi-Line
     Comments */
 ```
-While your executable program is being made from your .c file, the compiler will remove all of your comments, since they aren't needed for running the program. But feat not! The comments will still remain in your original .c file.
+While your executable program is being made from your .c file, the compiler will remove all of your comments, since they aren't needed for running the program. But fear not! The comments will still remain in your original .c file.
 > Comments also have the useful function of being able to temporarily render lines of code inert; if you are testing code and are having issues with one section, you can comment that section out and work on other sections, allowing you to return later to the problem area
 
 ### printf("OK Computer");
