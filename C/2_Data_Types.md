@@ -5,9 +5,9 @@ There are different types of data that we need to interact with while programmin
 ## Variables
 
 Variables are containers for values that we wish to manipulate. Think over to math classes, where you have to solve for x or y. In this scenario, x and y are containers for data! <br>
-* When a variable is declared, we are telling our computer "make room large enough for this type of data, and keep that spot open!". This space is made in your computers RAM (Random Access Memory).
-* When a variable is initialized, we are actively assigning a value to that variable.
-> Most of the time in other languages, we would declare and initialize within the same line. The C language likes to have all the variables you will use at least declared at the top of your function, and then initializing/using them afterwards.
+- When a variable is **declared**, we are telling our computer "make room large enough for this type of data, and keep that spot open!". This space is made in your computers RAM (Random Access Memory).
+- When a variable is **initialized**, we are actively assigning a value to that variable.
+> Most of the time in other languages, we would declare and initialize within the same line. The C language likes to have all the variables you will use at least declared at the top of your function, and then initializing/manipulating them afterwards.
 
 ## Integers (Non-Fractional, Non-Decimal Numbers)
 
@@ -16,13 +16,15 @@ Integers are numbers without any decimal places. These are the first numbers you
 #include <stdio.h>
 
 int main(void) {
-    int my_integer; // this line makes space in the RAM equivalent to what an int can take up
-    my_integer = 5; // this line assigns a value to that space in RAM
+    // this line makes space in the RAM equivalent to what an int can hold
+    int my_integer;
+    // this next line assigns a value to that space in RAM
+    my_integer = 5; 
     return 0;
 }
 ```
 In C, ints take up 4 bytes of memory.
-> You might have noticed that an int is the data type our main function is returning! That's where the 'int' comes from on the function line, and is why our return value of 0 corresponds to the type.
+> You might have noticed that an int is the data type our main function is returning! That's where the 'int' comes from on the function line, and is why our return value of 0 corresponds to that type.
 
 ## Real Numbers (Decimal Numbers)
 
@@ -52,5 +54,4 @@ int main(void) {
 In C, bools take up 1 byte of memory (technically you only need 1 bit to tell if something is true or false, but the C standard allows allocations of 1 byte as the minimum).
 
 ## Characters (Letters and Symbols)
-
 
