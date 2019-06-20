@@ -57,4 +57,4 @@ The `main()` function is special, in that it specifically needs you to `return 0
 
 Technically, us putting `return 0;` is something called a statement; statements end in a `;`. Statements let our program know how many operations to try and do before moving on to the next set of them; typically, you will use a semicolon at the end of each line of your code.
 
-[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/Data_Types.md "Data Types"), we need to learn the different types of data, and containers for storing them (variables).
+[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/2_Data_Types.md "Data Types"), we need to learn the different types of data, and containers for storing them (variables).
