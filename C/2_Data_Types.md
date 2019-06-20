@@ -66,4 +66,4 @@ int main(void){
 ```
 In C, characters take up 1 byte of memory.
 
-Next, we learn about simple methods of user interaction!
+[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/3_User_Interaction.md "User Interaction"), we learn about simple methods of user interaction!
