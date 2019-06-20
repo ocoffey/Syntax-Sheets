@@ -55,3 +55,15 @@ In C, bools take up 1 byte of memory (technically you only need 1 bit to tell if
 
 ## Characters (Letters and Symbols)
 
+Letters and other symbols are stored within the `char` data type. Characters are actually stored as numeric values, that are converted via a lookup on the ASCII table into the letters and symbols that you use!
+> Because characters are numeric values, you are able to use mathematical operations on them.
+```c
+int main(void){
+    char my_char;
+    my_char = 'h';
+    return 0;
+}
+```
+In C, characters take up 1 byte of memory.
+
+Next, we learn about simple methods of user interaction!
