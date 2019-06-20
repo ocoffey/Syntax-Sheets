@@ -24,9 +24,9 @@ The first line, `#include <stdio.h>`, is including an external library for our p
 
 ### `int main(void)`
 
-The first part, `int`, is specifying the type of the return value (we'll find out more about types and return values in a bit). <br>
-The second part, `main()`, is a special named function; it tells our program where to start running the code from. <br>
-Our third part, `void`, is something called a parameter; in this scenario, we're saying that our function doesn't use any parameters (you can numerically think of void as 0).
+- The first part, `int`, is specifying the type of the return value (we'll find out more about types and return values in a bit). <br>
+- The second part, `main()`, is a special named function; it tells our program where to start running the code from. <br>
+- Our third part, `void`, is something called a parameter; in this scenario, we're saying that our function doesn't use any parameters (you can numerically think of void as 0).
 
 ### Brackets { }
 
@@ -46,7 +46,7 @@ While your executable program is being made from your .c file, the compiler will
 
 ### printf("OK Computer");
 
-This line uses the `printf()` command to display the words "OK Computer" to the user. More on print statements, and statements used to take in user input, will be explained later.
+This line uses the `printf()` function to display the words "OK Computer" to the user. More on print statements, and statements used to take in user input, will be explained later.
 
 ### `return 0;`
 
