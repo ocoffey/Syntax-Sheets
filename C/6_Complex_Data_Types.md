@@ -40,9 +40,12 @@ int myarr[3] = {0, 1, 2};
 A visualization of our previous example. Somewhere in RAM, we would have something that looks kind of like this:
 
 **myarr**
+
 |Index|  0  |  1  |  2  |
 |  -  |  -  |  -  |  -  |
 |Value| `0` | `1` | `2` |
+
+> If you remember from the data types section, integers take up 4 bytes of memory, so our full array takes up 12 bytes!
 
 ## Strings
 
@@ -66,3 +69,4 @@ Let's say that the user entered "hello" in our previous example; somewhere in ou
 |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
 |Value|`'h'`|`'e'`|`'l'`|`'l'`|`'o'`|`'\x0'`|trash|trash|trash|trash|
 
+> Even though the values at the end of our array are unknown, they still take up space because we told the RAM that we needed the space.
