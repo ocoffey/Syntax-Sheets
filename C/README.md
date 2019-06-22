@@ -16,7 +16,7 @@ A brief look at printing to console, and taking user input.
 
 ## 4. [Operators](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/4_Operators.md "Operators")
 
-Mathematical and Logical Operators that are used within conditional statements.
+Mathematical and Logical Operators that are used within conditional statements and for manipulations.
 
 ## 5. [Control Flow](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/5_Control_Flow.md "Control Flow")
 
