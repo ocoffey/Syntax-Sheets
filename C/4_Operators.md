@@ -235,6 +235,7 @@ int main(void) {
 #### && Truth Table
 
 A handy table for tracking whether the statements should evaluate as true or false.
+
 |   A   | and |   B   | ->  | Result |
 |  ---  | --- |  ---  | --- |  ---   |
 | true  | and | true  | ->  | true   |
