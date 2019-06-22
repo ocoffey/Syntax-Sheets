@@ -133,4 +133,4 @@ do {
 } while(oneRun); // evaluates to false, and doesn't run again
 ```
 
-[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/6_Complex_Data-Types.md "Complex Data Types"), we explore some examples of complex data types.
+[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/6_Complex_Data_Types.md "Complex Data Types"), we explore some examples of complex data types.
