@@ -29,7 +29,7 @@ for (i = 0; i < 10; i++) {
 
 ### Declaring and Initializing in one step
 
-This example declares and initializes the array in the same step (akin to a line line `int i = 5`). You must use curly brackets to place your initial values.
+This example declares and initializes the array in the same step (akin to `int i = 5`). You must use curly brackets to place your initial values.
 ```c
 int myarr[3] = {0, 1, 2};
 ```
