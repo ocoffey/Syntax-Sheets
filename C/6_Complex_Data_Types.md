@@ -70,3 +70,5 @@ Let's say that the user entered "hello" in our previous example; somewhere in ou
 |Value|`'h'`|`'e'`|`'l'`|`'l'`|`'o'`|`'\x0'`|trash|trash|trash|trash|
 
 > Even though the values at the end of our array are unknown, they still take up space because we told the RAM that we needed the space.
+
+[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/7_Functions.md "Functions"), we explore some examples of user defined (helper) functions, then recursive functions.
