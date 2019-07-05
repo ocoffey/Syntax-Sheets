@@ -25,3 +25,7 @@ A look at basic conditional statements and loops.
 ## 6. [Complex Data Types](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/6_Complex_Data_Types.md "Complex Data Types")
 
 A brief look at arrays and strings.
+
+## 7. [Functions](https://github.com/ocoffey/Syntax-Sheets/blob/master/C/7_Functions.md "Functions")
+
+A look into user defined (helper) functions, and recursive functions.
