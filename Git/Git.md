@@ -120,6 +120,8 @@ If you solely want to use the command line, we can enter something like `echo "a
 
 Once we've made this or some other change to this branch, we can do `git add file-name` and `git commit -m "created a new file"`. Our push is going to look a little different though: we're going to enter `git push -u origin branch_name`. This enables us to push to our github branch instead of to master.
 
-After entering your username and password the push goes through, we can go to github to our repository! A button should appear to merge our pull request; after we do so, that branches changes will be merged into master!
+After entering your username and password the push goes through, we can go to github to our repository! A button should appear to compare and pull request; click that, and open a pull request. After that, there should be another button to merge with no issues!
 
-*Hopefully soon I will edit this walkthrough with pictures and more links and such. If you've made it this far, you're well on your way to having a better development cycle!*
+Finally, after a successful merge, in our terminal, checkout master again with `git checkout master`, and do a `git pull` to get our local master up to date with our changes. But make sure to switch back to your branch again before doing edits!
+
+*Hopefully soon I will edit this walkthrough with pictures and more links and such. If you've made it this far and understand it, you're well on your way to having a better development cycle!*
