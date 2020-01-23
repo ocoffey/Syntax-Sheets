@@ -55,7 +55,7 @@ For this tutorial, we will be installing VS Code, and making it so that our linu
 
 1. First, download and install VS Code (link [here](https://code.visualstudio.com/, "VS Code")).
 2. After installing VS Code, go to the "Extensions" tab (the 4 blocks along the left side of the windows), and install the "Remote Development" extension.
-3. After doing so, you should be able to click the bottom left of your window, and open a new window within the Windows Subsystem for Linux! 
+3. After doing so, you should be able to click the bottom left of your window, and open a new window within the Windows Subsystem for Linux!
 4. You can close the old window, keeping the new one open. Then, enter `ctrl` + ` to open the terminal.
 5. Now, you should be able to see your discs by inputting `ls /mnt`. Suggesting that you want to use your C drive for storing files, we can mount the disc with `cd /mnt/c`, and then traverse the disc to a folder that you want to make as your Github folder!
 
@@ -63,7 +63,7 @@ For this tutorial, we will be installing VS Code, and making it so that our linu
 
 ## Actually Using Git
 
-Now that the setup process is done, we need to tell git who we are! 
+Now that the setup process is done, we need to tell git who we are!
 
 ### Config
 
@@ -114,7 +114,7 @@ You would probably work on the in that order, too; only working on the 'doing so
 
 All repositories have one branch to start, named `master`. By making other branches, it allows us to have working (if not fully completed) code in our repository stored in `master`, while we develop in a different branch! So as you finished one of those large sections, and have tested your code for it, _then_ you would push that branch to master. Now, to see it in action.
 
-First, we need to make a new branch to work within! The easiest way to do this is with `git checkout -b branch_name`, where `branch_name` is whatever name we choose (for this example, we could choose a name like `dev`, short for development). 
+First, we need to make a new branch to work within! The easiest way to do this is with `git checkout -b branch_name`, where `branch_name` is whatever name we choose (for this example, we could choose a name like `dev`, short for development).
 > Normally you have to create a branch before you check it out, but the -b flag allows to do this in one step, by creating, then checking out the branch.
 
 Now, if you enter `git branch`, you should be able to see both `master` and the branch name you chose! Let's do some edits within our branch.
