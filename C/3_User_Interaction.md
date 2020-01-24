@@ -9,6 +9,7 @@ Many times in coding, we will need to let the user know some result that our cod
 ### `printf()`
 
 The `printf()` function prints whatever you end up putting inside the parenthesis!
+
 ```c
 #include <stdio.h>
 
@@ -17,11 +18,13 @@ int main(void) {
     return 0;
 }
 ```
+
 Sometimes though, we won't always know exactly which values we're going to print at our time of writing, which is why we also have something called format specifiers.
 
 ### Format Specifiers
 
 Format specifiers occur inline with the text we print, and tell `printf` that some part of the text is going to be replaced. This is useful for times when we compute something based on user input, and want to tell the user what we found.
+
 ```c
 #include <stdio.h>
 
@@ -34,6 +37,7 @@ int main(void) {
     return 0;
 }
 ```
+
 > There is a list of format specifiers [here](http://www.cplusplus.com/reference/cstdio/printf/ "List of Format Specifiers").
 
 ## Receiving Input from the Console
@@ -43,6 +47,7 @@ Conversely to printing output, we also are able to receive input in C; input is 
 ### `scanf()`
 
 `scanf()` will allow the user enter an input, which we can then store to use for our calculations!
+
 ```c
 int main(void) {
     int usrnum; // This example makes space for an integer
@@ -52,7 +57,8 @@ int main(void) {
     return 0;
 }
 ```
-> `scanf()` uses the same list of format specifiers as `printf()`
+
+`scanf()` uses the same list of format specifiers as `printf()`
 
 > You might have noticed the `&` symbol used in front of our variable in `scanf`. This is something called a reference, and will be explored more in depth later. At this stage, just know that you need to place it in front of your variable name in order for `scanf` to work.
 
