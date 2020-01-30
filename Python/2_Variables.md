@@ -45,10 +45,10 @@ myString: str = "Hello!"
 
 ## Boolean Values
 
-Also known as logical values, booleans are either `true` or `false`. They help more in the section on Control Flow. Type for a variable can be specified as follows:
+Also known as logical values, booleans are either `True` or `False`. They help more in the section on Control Flow. Type for a variable can be specified as follows:
 
 ```python
-myBool: bool = true
+myBool: bool = True
 ```
 
-[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/Python/3_User_Interaction.md "User_Interaction"), we go over more methods of user interaction.
+[Next](https://github.com/ocoffey/Syntax-Sheets/blob/master/Python/3_User_Interaction.md "User Interaction"), we go over more methods of user interaction.

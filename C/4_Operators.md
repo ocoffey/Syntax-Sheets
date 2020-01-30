@@ -5,6 +5,7 @@ Operators that don't quite fit other categories.
 ## Assignment Operator
 
 The `=` is the assignment operator. This operator works from right to left, taking the value on the right of the operator, and assigning that value to the variable on the left.
+
 ```c
 int main(void){
     int myval = 1; // This line sets the value of myval to 1 (instantiation)
@@ -36,6 +37,7 @@ Basic multiplication operator
 ## /
 
 The integer division operator. This operator effectively uses long division, and returns your answer without the remainder.
+
 ```c
 int main(void) {
     int a;
@@ -48,6 +50,7 @@ int main(void) {
 ## %
 
 The remainder operator (known as modulo/modulus). This operator will output *only* the remainder of the division operation. This operator is very useful for checking if a number is odd or even (by doing num % 2), and other functions of that nature.
+
 ```c
 int main(void) {
     int a;
@@ -114,6 +117,7 @@ These operators can help for operational shortcuts, where applicable
 ### +=
 
 This operator is a shortcut of saying `x = x + value`.
+
 ```c
 int main(void) {
     int i = 2;
@@ -149,6 +153,7 @@ For checking mathematical comparisons. After the comparison, these statements wi
 ### ==
 
 The equality operator. This operator checks to see that both sides of the equation are equal. If they are, then this statement evaluates to `true`.
+
 ```c
 int main(void) {
     int mynum = 4;
@@ -163,11 +168,13 @@ int main(void) {
     return 0;
 }
 ```
+
 > We haven't fully covered control flow, so I will just be using `if` statements for these explanations. If you want to cover control flow first, feel free to skip ahead, and then come back
 
 ### !=
 
 The inequality operator. This operator will evaluate to `true` if the values on either side *do not* equal each other.
+
 ```c
 int main(void) {
     int mynum = 17;
@@ -184,6 +191,7 @@ int main(void) {
 ### >, >=
 
 These operators check to see if the left side is greater than, or greater than/equal to the right side (respectively). If that is the case, these statements will evaluate to `true`.
+
 ```c
 int main(void){
     int myval = 5;
@@ -208,6 +216,7 @@ These operators are used for boolean values of `true` and `false`. These operato
 ### !
 
 The logical 'not' operator (logical inverse). It turns true (nonzero) values false (to zero), and false values true. It does this mathematically, by changing any non-zero value to 0, and values of 0 to 1.
+
 ```c
 int main(void) {
     int thisWillBeTrue = 0; // Currently this value is logically false
@@ -221,6 +230,7 @@ int main(void) {
 ### && (Logical And)
 
 The logical 'and' operator. This operator checks to see that both sides of the equation logically evaluate to be true.
+
 ```c
 int main(void) {
     int myval = 6;
@@ -230,6 +240,7 @@ int main(void) {
     return 0;
 }
 ```
+
 > You can nest statements with parenthesis, which will evaluate first. Here, 6 is greater than or equal to 1, so that statement evaluates to true (1), and then both 5 *and* 1 are nonzero, so the compound statement evaluates to true, allowing the if statement to run.
 
 #### && Truth Table
@@ -246,6 +257,7 @@ A handy table for tracking whether the statements should evaluate as true or fal
 ### || (Logical Or)
 
 The logical 'or' operator. This operator checks to see that either side of the operator is a non-zero value, and if there is one, evaluates to 'true'.
+
 ```c
 int main(void) {
     if (1 || 0) {
